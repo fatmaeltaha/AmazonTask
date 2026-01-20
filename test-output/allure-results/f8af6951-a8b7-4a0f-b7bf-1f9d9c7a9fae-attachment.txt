@@ -1,0 +1,68 @@
+[DEBUG] - [20-01-2026 04:34:32] [main] [org.testng.TestNG] - suiteXmlPath: "D:\projectavr\Testing\AssetTechnologyTask\AmazonTask\test.xml"
+[INFO] - [20-01-2026 04:34:33] [main] [com.amazon.listeners.TestNGListeners] - Test Execution started
+[INFO] - [20-01-2026 04:34:33] [main] [com.amazon.utils.FileUtils] - File deleted: D:\projectavr\Testing\AssetTechnologyTask\AmazonTask\test-output\Logs\logs.log
+[INFO] - [20-01-2026 04:34:33] [main] [com.amazon.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [20-01-2026 04:34:33] [main] [com.amazon.utils.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [20-01-2026 04:34:33] [main] [com.amazon.utils.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [20-01-2026 04:34:33] [main] [com.amazon.utils.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [20-01-2026 04:34:33] [main] [com.amazon.listeners.TestNGListeners] - Directories created
+[INFO] - [20-01-2026 04:34:33] [main] [com.amazon.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [20-01-2026 04:34:33] [main] [com.amazon.listeners.TestNGListeners] - Properties loaded
+[INFO] - [20-01-2026 04:34:34] [main] [com.amazon.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [20-01-2026 04:34:35] [main] [com.amazon.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [20-01-2026 04:34:35] [main] [com.amazon.listeners.TestNGListeners] - Allure environment set
+[INFO] - [20-01-2026 04:34:36] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  D:\projectavr\Testing\AssetTechnologyTask\AmazonTask\test.xml
+
+[INFO] - [20-01-2026 04:34:36] [main] [com.amazon.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [20-01-2026 04:34:36] [main] [com.amazon.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [20-01-2026 04:34:39] [main] [com.amazon.utils.actions.BrowserActions] - Navigated to URL: https://www.amazon.eg/
+[INFO] - [20-01-2026 04:34:41] [main] [com.amazon.utils.actions.ElementActions] - Hovered over element: By.cssSelector: [data-csa-c-content-id='nav_ya_signin']
+[INFO] - [20-01-2026 04:34:41] [main] [com.amazon.utils.actions.ElementActions] - initialLocation: (926, 73)
+[INFO] - [20-01-2026 04:34:41] [main] [com.amazon.utils.actions.ElementActions] - finalLocation: (926, 73)
+[INFO] - [20-01-2026 04:34:42] [main] [com.amazon.utils.actions.ElementActions] - Clicked on element: By.className: nav-action-inner
+[INFO] - [20-01-2026 04:34:42] [main] [com.amazon.listeners.TestNGListeners] - Test Case signInWithValidUnregisteredEmailTC started
+[DEBUG] - [20-01-2026 04:34:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validUnregisteredEmail']
+[INFO] - [20-01-2026 04:34:43] [main] [com.amazon.utils.actions.ElementActions] - Typed text 'fatmaabdelrahimeltahan@gmail.com' into element: By.id: ap_email_login
+[INFO] - [20-01-2026 04:34:43] [main] [com.amazon.utils.actions.ElementActions] - initialLocation: (532, 193)
+[INFO] - [20-01-2026 04:34:43] [main] [com.amazon.utils.actions.ElementActions] - finalLocation: (532, 193)
+[INFO] - [20-01-2026 04:34:44] [main] [com.amazon.utils.actions.ElementActions] - Clicked on element: By.className: a-button-input
+[DEBUG] - [20-01-2026 04:34:44] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['primaryTitle']
+[INFO] - [20-01-2026 04:34:44] [main] [com.amazon.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //h1 - Text: Looks like you're new to Amazon
+[ERROR] - [20-01-2026 04:34:44] [main] [com.amazon.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [20-01-2026 04:34:44] [main] [com.amazon.listeners.TestNGListeners] - Test Case signInWithValidUnregisteredEmailTC passed
+[INFO] - [20-01-2026 04:34:44] [main] [com.amazon.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [20-01-2026 04:34:44] [main] [com.amazon.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [20-01-2026 04:34:44] [main] [com.amazon.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [20-01-2026 04:34:45] [main] [com.amazon.listeners.TestNGListeners] - Test Case addProductsToCartTC started
+[INFO] - [20-01-2026 04:34:47] [main] [com.amazon.utils.actions.BrowserActions] - Navigated to URL: https://www.amazon.eg/
+[INFO] - [20-01-2026 04:34:48] [main] [com.amazon.utils.actions.ElementActions] - initialLocation: (138, 65)
+[INFO] - [20-01-2026 04:34:48] [main] [com.amazon.utils.actions.ElementActions] - finalLocation: (138, 65)
+[INFO] - [20-01-2026 04:34:50] [main] [com.amazon.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-csa-c-content-id='nav_cs_gb']
+[INFO] - [20-01-2026 04:34:51] [main] [com.amazon.utils.actions.ElementActions] - initialLocation: (221, 166)
+[INFO] - [20-01-2026 04:34:51] [main] [com.amazon.utils.actions.ElementActions] - finalLocation: (221, 166)
+[INFO] - [20-01-2026 04:34:51] [main] [com.amazon.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-csa-c-element-id='filter-bubble-discounts-collection-deals-ending-today']
+[INFO] - [20-01-2026 04:34:52] [main] [com.amazon.utils.actions.ElementActions] - initialLocation: (241, 252)
+[INFO] - [20-01-2026 04:34:52] [main] [com.amazon.utils.actions.ElementActions] - finalLocation: (241, 252)
+[INFO] - [20-01-2026 04:34:56] [main] [com.amazon.utils.actions.ElementActions] - Clicked on element: By.cssSelector: div[data-testid='product-card'][data-csa-c-posx='1']
+[INFO] - [20-01-2026 04:34:56] [main] [com.amazon.utils.actions.ElementActions] - initialLocation: (1187, 612)
+[INFO] - [20-01-2026 04:34:56] [main] [com.amazon.utils.actions.ElementActions] - finalLocation: (1187, 552)
+[INFO] - [20-01-2026 04:34:57] [main] [com.amazon.utils.actions.ElementActions] - initialLocation: (1187, 552)
+[INFO] - [20-01-2026 04:34:57] [main] [com.amazon.utils.actions.ElementActions] - finalLocation: (1187, 552)
+[INFO] - [20-01-2026 04:34:57] [main] [com.amazon.utils.actions.ElementActions] - Clicked on element: By.className: a-dropdown-prompt
+[INFO] - [20-01-2026 04:34:57] [main] [com.amazon.utils.actions.ElementActions] - initialLocation: (1110, 577)
+[INFO] - [20-01-2026 04:34:57] [main] [com.amazon.utils.actions.ElementActions] - finalLocation: (1110, 577)
+[INFO] - [20-01-2026 04:34:57] [main] [com.amazon.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[starts-with(@id,'quantity_') and normalize-space()='2']
+[INFO] - [20-01-2026 04:34:57] [main] [com.amazon.utils.actions.ElementActions] - Retrieved text from element: By.className: a-price-whole - Text: 355
+[INFO] - [20-01-2026 04:34:57] [main] [com.amazon.utils.actions.ElementActions] - Retrieved text from element: By.className: a-price-fraction - Text: 29
+[INFO] - [20-01-2026 04:34:57] [main] [com.amazon.utils.actions.ElementActions] - Retrieved text from element: By.className: a-dropdown-prompt - Text: 2
+[INFO] - [20-01-2026 04:34:57] [main] [com.amazon.utils.actions.ElementActions] - initialLocation: (1111, 590)
+[INFO] - [20-01-2026 04:34:57] [main] [com.amazon.utils.actions.ElementActions] - finalLocation: (1111, 590)
+[INFO] - [20-01-2026 04:34:59] [main] [com.amazon.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-button
+[INFO] - [20-01-2026 04:34:59] [main] [com.amazon.utils.actions.ElementActions] - initialLocation: (1127, 5)
+[INFO] - [20-01-2026 04:34:59] [main] [com.amazon.utils.actions.ElementActions] - finalLocation: (1127, 5)
+[INFO] - [20-01-2026 04:35:00] [main] [com.amazon.utils.actions.ElementActions] - Clicked on element: By.id: nav-cart-count-container
+[INFO] - [20-01-2026 04:35:01] [main] [com.amazon.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //span[contains(@class,'sc-product-price')]/span[@aria-hidden='true'] - Text: EGP355.29
+[INFO] - [20-01-2026 04:35:01] [main] [com.amazon.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: [data-a-selector='inner-value'] - Text: 2
+[INFO] - [20-01-2026 04:35:01] [main] [com.amazon.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //span[@id='sc-subtotal-amount-activecart']/span - Text: EGP 710.58
+[ERROR] - [20-01-2026 04:35:01] [main] [com.amazon.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
